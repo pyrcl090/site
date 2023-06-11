@@ -235,7 +235,7 @@ a[class=internal]:after{
         iframe{
             width: 98vw;
             margin: 1%;
-            height: 60vh;
+            height: 30vh;
             z-index: 3;
           }
         iframe.web{
