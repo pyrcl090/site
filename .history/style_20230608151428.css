@@ -13,8 +13,8 @@ body{
     font-family: 'ARIAL NARROW';
     font-weight: 400;
     font-style: normal;
-    font-size: .9em;
-    line-height: 1.2em; 
+    font-size: 1em;
+    line-height: 1.3em; 
     overscroll-behavior-x: none;
     margin: 0%;
     padding: 0%;
@@ -30,10 +30,8 @@ a{
     text-decoration: none;
     mix-blend-mode: exclusion;
 }
-.titre{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    mix-blend-mode: exclusion;
+.cache{
+    display: none;
 }
 .nav{
     top: 0%;
