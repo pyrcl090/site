@@ -13,8 +13,8 @@ body{
     font-family: 'ARIAL NARROW';
     font-weight: 400;
     font-style: normal;
-    font-size: 1em;
-    line-height: 1.3em; 
+    font-size: .9em;
+    line-height: 1.2em; 
     overscroll-behavior-x: none;
     margin: 0%;
     padding: 0%;
@@ -22,7 +22,7 @@ body{
 }
 
 p{
-    color: white;
+    color: rgb(117, 117, 117);
     mix-blend-mode: exclusion;
 } 
 a{
@@ -225,8 +225,9 @@ a[class=internal]:after{
         }
         .arenaimgs{
             width: auto;
-            margin-top: 10vh;
+            margin-top: 5vh;
             height: 90vh;
+            margin-bottom: 5vh;
             display: flex;
             padding-left: 1vw;
      }
@@ -237,7 +238,7 @@ a[class=internal]:after{
         iframe{
             width: 98vw;
             margin: 1%;
-            height: 60vh;
+            height: 40vh;
             z-index: 3;
           }
         iframe.web{

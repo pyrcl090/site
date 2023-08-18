@@ -225,8 +225,9 @@ a[class=internal]:after{
         }
         .arenaimgs{
             width: auto;
-            margin-top: 10vh;
+            margin-top: 5vh;
             height: 90vh;
+            margin-top: vh;
             display: flex;
             padding-left: 1vw;
      }
