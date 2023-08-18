@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="style.css">
     <style>
       html{
-      background: url(./3dfrigo.png) no-repeat center center fixed;
-      background-size: cover;
+        background: url(./mould2.png) no-repeat center center fixed;
+        background-size: cover;
+        background-color: rgb(37, 37, 37)
       };
     </style>
 </head>
 <body>
-
 
     <div id="parent">
         <ul class="img__container"></ul>
@@ -32,7 +32,7 @@
   
   window.addEventListener('DOMContentLoaded', () => {
   
-    fetch(`https://api.are.na/v2/channels/frigo-nlvbyb9xnh0?per=100`, {cache: 'no-store'})
+    fetch(`https://api.are.na/v2/channels/mould-qdpxd5qgjik?per=100`, {cache: 'no-store'})
     .then(response => response.json())
     .then(data => {
       renderBlocks(data.contents);
