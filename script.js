@@ -21,20 +21,20 @@ img2.addEventListener("mouseover", function(){
     imgtxt.innerHTML = "rusałka_TYPEFACE";
 });
 
-img3.addEventListener("mouseover", function(){
-    mp4txt.innerHTML = "";
-    imgtxt.innerHTML = "perfectdesigns_POSTER";
-});
+// img3.addEventListener("mouseover", function(){
+//     mp4txt.innerHTML = "";
+//     imgtxt.innerHTML = "perfectdesigns_POSTER";
+// });
 
 img4.addEventListener("mouseover", function(){
     mp4txt.innerHTML = "";
     imgtxt.innerHTML = "sledz_BRANDING";
 });
 
-img5.addEventListener("mouseover", function(){
-    mp4txt.innerHTML = "preciouscarharttWIP_ANIMATION";
-    imgtxt.innerHTML = "";
-});
+// img5.addEventListener("mouseover", function(){
+//     mp4txt.innerHTML = "preciouscarharttWIP_ANIMATION";
+//     imgtxt.innerHTML = "";
+// });
 
 img6.addEventListener("mouseover", function(){
     mp4txt.innerHTML = "";
