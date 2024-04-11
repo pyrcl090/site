@@ -24,6 +24,7 @@ img2.addEventListener("mouseover", function(){
 // img3.addEventListener("mouseover", function(){
 //     mp4txt.innerHTML = "";
 //     imgtxt.innerHTML = "perfectdesigns_POSTER";
+// });
 
 img4.addEventListener("mouseover", function(){
     mp4txt.innerHTML = "";
