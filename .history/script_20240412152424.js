@@ -7,8 +7,7 @@ let img6 = document.querySelector(".img6");
 let img7 = document.querySelector(".img7");
 let img8 = document.querySelector(".img8");
 let img9 = document.querySelector(".img9");
-let img10 = document.querySelector(".img10");
-let img10 = document.querySelector(".img11");
+let img10 = document.querySelector(".img9");
 
 let imgtxt = document.querySelector("#img_text");
 let mp4txt = document.querySelector("#mp4_text");
@@ -64,8 +63,8 @@ img10.addEventListener("mouseover", function(){
 });
 
 img11.addEventListener("mouseover", function(){
-    mp4txt.innerHTML = "ffxpral_VIDEO";
-    imgtxt.innerHTML = " ";
+    mp4txt.innerHTML = " ";
+    imgtxt.innerHTML = "";
 });
 
 
