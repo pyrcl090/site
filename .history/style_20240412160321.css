@@ -241,7 +241,11 @@ img.passeport{
       }
 
       .dissapear{
+        color: transparent;
+    }
+    .dissapear:hover{
         color: white;
+        transition: .2s;
     }
 
     

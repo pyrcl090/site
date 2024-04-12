@@ -243,6 +243,10 @@ img.passeport{
       .dissapear{
         color: white;
     }
+    .dissapear:hover{
+        color: white;
+        transition: .2s;
+    }
 
     
   
