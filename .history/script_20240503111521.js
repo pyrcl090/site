@@ -5,7 +5,7 @@ let img4 = document.querySelector(".img4");
 let img5 = document.querySelector(".img5");
 let img6 = document.querySelector(".img6");
 let img7 = document.querySelector(".img7");
-// let img8 = document.querySelector(".img8");
+let img8 = document.querySelector(".img8");
 let img9 = document.querySelector(".img9");
 let img10 = document.querySelector(".img10");
 // let img11 = document.querySelector(".img11");
@@ -50,7 +50,7 @@ img7.addEventListener("mouseover", function(){
 
 // img8.addEventListener("mouseover", function(){
 //     mp4txt.innerHTML = " ";
-//     imgtxt.innerHTML = "";
+//     imgtxt.innerHTML = "anagamaceramics_POSTER";
 // });
 
 img9.addEventListener("mouseover", function(){
