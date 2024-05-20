@@ -35,7 +35,7 @@ img4.addEventListener("mouseover", function(){
 });
 
 img5.addEventListener("mouseover", function(){
-    // mp4txt.innerHTML = " ";
+    mp4txt.innerHTML = " ";
     imgtxt.innerHTML = "ClementBossard_EXHIBITIONDESIGN";
 });
 
