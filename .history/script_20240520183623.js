@@ -49,10 +49,10 @@ img7.addEventListener("mouseover", function(){
     imgtxt.innerHTML = "(e)3_BOOK";
 });
 
-// img8.addEventListener("mouseover", function(){
-//     // mp4txt.innerHTML = " ";
-//     imgtxt.innerHTML = "(e)3_BOOK";
-// });
+img8.addEventListener("mouseover", function(){
+    // mp4txt.innerHTML = " ";
+    imgtxt.innerHTML = "(e)3_BOOK";
+});
 
 img9.addEventListener("mouseover", function(){
     // mp4txt.innerHTML = " ";
