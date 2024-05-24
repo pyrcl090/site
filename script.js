@@ -3,7 +3,7 @@ let img2 = document.querySelector(".img2");
 // let img3 = document.querySelector(".img3");
 let img4 = document.querySelector(".img4");
 let img5 = document.querySelector(".img5");
-// let img6 = document.querySelector(".img6");
+let img6 = document.querySelector(".img6");
 let img7 = document.querySelector(".img7");
 // let img8 = document.querySelector(".img8");
 let img9 = document.querySelector(".img9");
@@ -36,13 +36,13 @@ img4.addEventListener("mouseover", function(){
 
 img5.addEventListener("mouseover", function(){
     // mp4txt.innerHTML = " ";
-    imgtxt.innerHTML = "ClementBossard_EXHIBITIONDESIGN";
+    imgtxt.innerHTML = "yasashii_EXHIBITION";
 });
 
-// img6.addEventListener("mouseover", function(){
-//     // mp4txt.innerHTML = " ";
-//     imgtxt.innerHTML = "signaletiquechiottes_FUNSHIT";
-// });
+img6.addEventListener("mouseover", function(){
+    // mp4txt.innerHTML = " ";
+    imgtxt.innerHTML = "yasashii_EXHIBITION";
+});
 
 img7.addEventListener("mouseover", function(){
     // mp4txt.innerHTML = " ";
