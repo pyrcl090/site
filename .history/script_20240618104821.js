@@ -36,7 +36,7 @@ img4.addEventListener("mouseover", function(){
 
 img5.addEventListener("mouseover", function(){
     // mp4txt.innerHTML = " ";
-    imgtxt.innerHTML = "pral_FW24";
+    imgtxt.innerHTML = "pral_EXHIBITION";
 });
 
 img6.addEventListener("mouseover", function(){
