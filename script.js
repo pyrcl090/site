@@ -6,7 +6,7 @@ let img5 = document.querySelector(".img5");
 let img6 = document.querySelector(".img6");
 let img7 = document.querySelector(".img7");
 let img8 = document.querySelector(".img8");
-// let img9 = document.querySelector(".img9");
+let img9 = document.querySelector(".img9");
 
 
 let imgtxt = document.querySelector("#img_text");
@@ -19,7 +19,7 @@ let section5 = document.querySelector(".section5");
 let section6 = document.querySelector(".section6");
 let section7 = document.querySelector(".section7");
 let section8 = document.querySelector(".section8");
-// let section9 = document.querySelector(".section9");
+let section9 = document.querySelector(".section9");
 
 
 img1.addEventListener("mouseover", function(){
@@ -41,7 +41,7 @@ img1.addEventListener("click", function(){
     section6.classList.add("hide");
     section7.classList.add("hide");
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -63,7 +63,7 @@ img2.addEventListener("click", function(){
     section6.classList.add("hide");
     section7.classList.add("hide");
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -85,7 +85,7 @@ img3.addEventListener("click", function(){
     section6.classList.add("hide");
     section7.classList.add("hide");
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -107,7 +107,7 @@ img4.addEventListener("click", function(){
     section6.classList.add("hide");
     section7.classList.add("hide");
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -129,7 +129,7 @@ img5.addEventListener("click", function(){
     section6.classList.add("hide");
     section7.classList.add("hide");
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -151,7 +151,7 @@ img6.addEventListener("click", function(){
     section6.scrollIntoView({behavior: 'smooth', block: 'start'});  
     section7.classList.add("hide");
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -175,7 +175,7 @@ img7.addEventListener("click", function(){
     section7.classList.toggle("hide");
     section7.scrollIntoView({behavior: 'smooth', block: 'start'});  
     section8.classList.add("hide");
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
@@ -197,24 +197,24 @@ img8.addEventListener("click", function(){
     section7.classList.add("hide");
     section8.classList.toggle("hide");
     section8.scrollIntoView({behavior: 'smooth', block: 'start'}); 
-    // section9.classList.add("hide"); 
+    section9.classList.add("hide"); 
 
 })
 
-// img9.addEventListener("mouseover", function(){
-//     imgtxt.innerHTML = "WFP";
-//     imgcaption.innerHTML = "<br>The white fin project digital flyer.";
-// });
-// img9.addEventListener("click", function(){
-//     section1.classList.add("hide");
-//     section2.classList.add("hide");
-//     section3.classList.add("hide");
-//     section4.classList.add("hide");
-//     section5.classList.add("hide");
-//     section6.classList.add("hide");
-//     section7.classList.add("hide");
-//     section8.classList.add("hide");
-//     img9.scrollIntoView({behavior: 'smooth', block: 'start'});  
-// })
+img9.addEventListener("mouseover", function(){
+    imgtxt.innerHTML = "Phase 0 Issue 8";
+    imgcaption.innerHTML = "<br>Phase Zero Issue 8 Launch flyer.";
+});
+img9.addEventListener("click", function(){
+    section1.classList.add("hide");
+    section2.classList.add("hide");
+    section3.classList.add("hide");
+    section4.classList.add("hide");
+    section5.classList.add("hide");
+    section6.classList.add("hide");
+    section7.classList.add("hide");
+    section8.classList.add("hide");
+    img9.scrollIntoView({behavior: 'smooth', block: 'start'});  
+})
 
 
