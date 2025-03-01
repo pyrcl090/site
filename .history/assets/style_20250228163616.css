@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'HMP';
+    src: url("hiragino-maru-gothic-pron-w4.otf") format("truetype");
+}
+
+html{
+    background-color:whitesmoke;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+body{
+    font-family: 'HMP';
+    font-weight: 400;
+    font-style: normal;
+    font-size: .75em;
+    line-height: 1.35em; 
+    overscroll-behavior-x: none;
+    margin: 0%;
+    padding: 0%;
+    z-index: 0;
+    text-transform: uppercase;
+}
+
+p{
+    color: rgb(137, 137, 137);
+    mix-blend-mode: exclusion;
+    
+} 
+a{
+    color: rgb(137, 137, 137);
+    text-decoration: none;
+    mix-blend-mode: exclusion;
+}
+.collumn{
+    width: 30vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+.hide{
+    display: none;
+}
+.nav{
+    bottom: 1%;
+    padding-bottom: 0%;
+    padding-left: 2%;
+    position: fixed;
+    width: 100vw;
+    height: 1vh;
+    mix-blend-mode: exclusion;
+    color: rgb(137, 137, 137);
+    z-index: 3;
+    overscroll-behavior-x: none;
+}
+.nav2{
+    top: 0%;
+    padding-bottom: 1%;
+    right: 0%;
+    padding-right: 2%;
+    text-align: right;
+    position: fixed;
+    width: 50vw;
+    height: 1vh;
+    mix-blend-mode: exclusion;
+    color: rgb(137, 137, 137);
+    z-index: 3;
+    overscroll-behavior-x: none;
+}
+.nav3{
+    top: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    position: fixed;
+    width: 50vw;
+    height: 1vh;
+    z-index: 3;
+    overscroll-behavior-x: none;
+}
+.nav4{
+    top: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    position: fixed;
+    width: 40vw;
+    height: 1vh;
+    z-index: 3;
+    overscroll-behavior-x: none;
+    
+}
+.nav5{
+    bottom: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    right: 0%;
+    position: fixed;
+    width: 30vw;
+    height: 1vh;
+    z-index: 3;
+    overscroll-behavior-x: none;
+    
+}
+.margin-top{
+    margin-top: 80px;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+}
+img.passeport{
+    width: 150px;
+    height:auto;
+    padding-left: 1%;
+    
+}
+.en{
+    padding-left: 2%;
+    padding-right: 1%;
+    width: 50vw;
+    /* text-align-last: right; */
+}
+.info{
+    padding-left: 1%;
+}
+
+.home_imgs{
+    width: auto;
+    margin-top: ;
+    height: 70vh;
+    display: flex;
+    padding-left: 0vw;
+}
+.home_container{
+    width: auto;
+    margin-top: 0vh;
+    height: 100vh;
+    display: flex;
+    padding-left: 0vw;
+}
+img.small{
+    margin-top: 25vh;
+    height: 50vh;
+}
+#img_caption{
+    width: 100px;
+
+}
+
+
+  #parent{
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          padding-inline-start: 0px;
+          padding-inline-end: 0px;
+          scroll-padding-inline-end: 0px;
+   }
+  ul {
+          list-style-type: none;
+          width: auto;
+          height: fit-content;
+          margin-block-start: 0em;
+          margin-block-end: 0em;
+          margin-inline-start: 0vw;
+          margin-inline-end: 0px;
+          padding-inline-start: 0px;
+          padding-inline-end: 0px;
+          scroll-padding-inline-end: 0px;
+          display: flex;
+        
+          
+      }
+      .img_container{
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+        scroll-padding-inline-end: 0px;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: column;
+      }
+  
+      #image-block {
+        
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+      }
+
+      @media only screen and (max-width: 780px) {
+        .nav{
+            width: 100vw;
+            padding-left: 2%;
+        }
+        .arenaimgs{
+            width: auto;
+            margin-top: 5vh;
+            height: 90vh;
+            margin-bottom: 5vh;
+            display: flex;
+            padding-left: 1vw;
+     }
+        /* iframe.video{
+            height: 100vh;
+            width: auto;
+        }
+        iframe{
+            width: 98vw;
+            margin: 1%;
+            height: 40vh;
+            z-index: 3;
+          }
+        iframe.web{
+            height: 80vh;
+            margin-left: 2%;
+            width: 96vw;
+            background-color: white;
+            border-radius: 10px;
+        } */
+        .margin-top{
+            margin-top: 80px;
+        }
+        .info{
+            padding-left: 2%;
+        }
+        img.passeport{
+            width: 130px;
+            height:auto;
+            padding-left: 2%;
+        }
+        .highlight.fr{
+            margin-bottom: 0%;
+            margin-top: 0%;
+        }
+        .highlight.en{
+            margin-bottom: 0%;
+        }
+        
+        .dissapear{
+            color: white;
+        }
+      }
+
+   
+
+    
+  
