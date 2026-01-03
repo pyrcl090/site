@@ -1,17 +1,17 @@
-@font-face {
-    font-family: 'HMP';
-    src: url("hiragino-maru-gothic-pron-w4.otf") format("truetype");
-}
+
 
 html{
     background-color:whitesmoke;
+    font-family: "maru-maru-gothic-alr-stdn", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body::-webkit-scrollbar {
     display: none;
   }
 body{
-    font-family: 'HMP';
+    font-family: 'maru-maru-gothic-alr-stdn';
     font-weight: 400;
     font-style: normal;
     font-size: .75em;
